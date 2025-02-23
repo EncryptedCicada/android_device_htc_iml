@@ -1,6 +1,6 @@
-## Device specifications
+## Device specifications for HTC U12 Life
 
- | Device                    | HTC U12 Life
+ | Type                      | Spec
  --------------------------- | :----------------------------------------------------------------------------------------------------------------|
  | SoC                       | Qualcomm SDM636 Snapdragon 636                                                                                   |
  | CPU                       | Quad-Core 1.8 GHz Kryo 260 Gold & Quad-Core 1.6 GHz Kryo 260 Silver                                              |
