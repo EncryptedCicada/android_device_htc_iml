@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/htc/htc_iml
+DEVICE_PATH := device/htc/iml
 
-include device/bq/sdm660-common/BoardConfigCommon.mk
+include device/htc/sdm660-common/BoardConfigCommon.mk
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_KERNEL_CONFIG := iml-perf_defconfig
