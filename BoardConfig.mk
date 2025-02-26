@@ -18,5 +18,8 @@ DEVICE_PATH := device/htc/iml
 
 include device/htc/sdm660-common/BoardConfigCommon.mk
 
+# Use mke2fs to create ext4 images
+TARGET_USES_MKE2FS := true
+
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_KERNEL_CONFIG := iml-perf_defconfig
